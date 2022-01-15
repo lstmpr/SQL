@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class SqlTest {
 
     @Test
-    void shouldBeValid(){
+    void shouldBeValid() {
         open("http://localhost:9999/");
         var loginPage = new LoginPage();
         var authInfo = DataHelper.getAuthInfo();
@@ -37,7 +37,7 @@ public class SqlTest {
     }
 
     @AfterAll
-    static void cleanDB () {
+    static void cleanDB() {
         DbInteraction.cleanDb();
     }
 
