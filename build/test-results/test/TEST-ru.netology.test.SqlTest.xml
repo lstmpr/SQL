@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.test.SqlTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2022-01-15T21:28:17" hostname="MacBook-Pro-Ekaterina.local" time="11.127">
+<testsuite name="ru.netology.test.SqlTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-01-16T10:27:09" hostname="MacBook-Pro-Ekaterina.local" time="8.799">
   <properties/>
-  <testcase name="shouldBeBlocked()" classname="ru.netology.test.SqlTest" time="9.535">
+  <testcase name="shouldBeBlocked()" classname="ru.netology.test.SqlTest" time="8.799">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;blocked&gt; but was: &lt;active&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;blocked&gt; but was: &lt;active&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
-	at ru.netology.test.SqlTest.shouldBeBlocked(SqlTest.java:36)
+	at ru.netology.test.SqlTest.shouldBeBlocked(SqlTest.java:38)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -101,16 +101,15 @@
 	at java.base/java.lang.Thread.run(Thread.java:829)
 </failure>
   </testcase>
-  <testcase name="shouldBeValid()" classname="ru.netology.test.SqlTest" time="1.591"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 11260
+Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 48446
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-янв. 16, 2022 12:28:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+янв. 16, 2022 1:27:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

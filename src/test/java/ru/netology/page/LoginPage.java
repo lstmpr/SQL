@@ -19,13 +19,13 @@ public class LoginPage {
 
     }
 
-    public VerificationPage inValidLogin(DataHelper.AuthInfo invalidInfo) {
-        loginField.setValue(invalidInfo.getLogin());
-        passwordField.setValue(invalidInfo.getPassword());
-        loginButton.click();
-        return new VerificationPage();
-
-    }
+//    public VerificationPage inValidLogin(DataHelper.AuthInfo invalidInfo) {
+//        loginField.setValue(invalidInfo.getLogin());
+//        passwordField.setValue(invalidInfo.getPassword());
+//        loginButton.click();
+//        return new VerificationPage();
+//
+//    }
 
     public void cleanLoginFields() {
         loginField.doubleClick().sendKeys(Keys.BACK_SPACE);
